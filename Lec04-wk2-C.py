@@ -20,3 +20,5 @@ cv2.imshow('window', img)
 cv2.setMouseCallback('window', onMouse)
 cv2.createTrackbar("Brightness", 'window', 0, 255, onChange)
 cv2.waitKey(0)
+
+# opencv 색깔(B, G, R)
