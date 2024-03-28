@@ -54,7 +54,7 @@ def add_text(composite, chroma_key_mode, frame_index):
         print(f"Error: Font file not found at {fontpath}")
         return
 
-    draw.text((40, 40), "201710906 김현송", font=font, fill=(255, 255, 0))
+    draw.text((40, 40), "2XXXXXX XXX", font=font, fill=(255, 255, 0))
     draw.text((40, 80), f"Chroma key mode: {'On' if chroma_key_mode is True else 'Off'}", font=font, fill=(255, 255, 0))
     draw.text((40, 120), f"Frame: {frame_index}", font=font, fill=(255, 255, 0))
 
